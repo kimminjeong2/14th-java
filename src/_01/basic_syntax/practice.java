@@ -2,7 +2,7 @@ package _01.basic_syntax;
 
 import java.util.Scanner;
 
-public class prectice {
+public class practice {
     public static void main(String[] args) {
         // Scanner 객체 생성
         Scanner scanner = new Scanner(System.in);
