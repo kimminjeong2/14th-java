@@ -7,7 +7,7 @@ public class Method {
         // 메서드 행위
         return 반환값;
     }
-    */
+     */
 
     public static void main(String[] args) {
         hello();
@@ -15,7 +15,7 @@ public class Method {
         System.out.println(sum1(10, 20));
 
         int[] numbers = {10,20};
-        int[] numbers2 = {10,20, 30,40};
+        int[] numbers2 = {10,20,30,40};
 
         System.out.println(mul1(10,20));
         System.out.println(mul2(numbers));
@@ -26,12 +26,15 @@ public class Method {
     public static void hello() {
         System.out.println("Hello Java!");
     }
-    // 반환값이 있는 메소드
-    public static int sum1(int x, int y) { return x + y;}
 
-    // call by value ( 값 전달 )
-    public static int mul1(int x, int y) {return x * y ;}
-    // call by reference ( 참조 전달 )
+    // 반환값이 있는 메소드
+    public static int sum1(int x, int y) {
+        return x + y;
+    }
+
+    // call by value (값 전달)
+    public static int mul1(int x, int y) {return x * y;}
+    // call by reference (참조 전달)
     public static int mul2(int[] nums) {
         return nums[0] * nums[1];
     }
